@@ -1,31 +1,41 @@
+
+
+/* debug */
+.debug [class*="col_"] {
+  height: 20vh;
+  background-color: pink;
+  border: 1px solid black;
+  position: relative;
+  float:left;
+}
+/* // debug */
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-/* debug */
-.debug [class*="col_"]{
-  background-color: pink;
-  border: 1px solid black;
-}
-/* // debug */
-
-[class*="col_"] {
-  float:left;
-}
-
 
 .container{
   width: 1170px;
   margin: 0 auto;
-  text-align: center;
-  line-height: 200px;
 }
 
 .container::after{
   content: "";
   display: table;
   clear: both;
+}
+
+p.text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.ht_auto{
+  height: auto !important;
+  text-align: center;
 }
 
 /* column */
