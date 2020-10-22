@@ -1,0 +1,7 @@
+.white_border{
+  border-color: white !important;
+}
+
+.bg_red{
+  background-color: rgba(255, 0, 0, 0.5)!important;
+}
